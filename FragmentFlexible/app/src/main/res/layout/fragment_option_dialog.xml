@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.fragmentflexible.OptionDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/who_manager_of_the_year_premiere_league"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_jm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jose_mourinho"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rb_pg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pep_guardiola"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rb_ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/antonio_conte"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rb_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/juergen_klopp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rb_aw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arsene_wenger"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/tutup"
+            android:layout_marginStart="4dp"/>
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/pilih"
+            android:layout_marginEnd="4dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
